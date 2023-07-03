@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #multiplication-table{
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        #multiplication-table td{
+            border: 1px solid blueviolet;
+            padding: 10px;
+            text-align: center;
+            background-color: gray;
+        }
+
+        h1{
+            font-family: cursive;
+            color: blueviolet;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>MULTIPLICATION TABLE</h1>
+
+    <label for="">Enter row count & column count : </label>
+    <input id="rowCount" type="text" placeholder="Enter row count here">
+    <input id="columnCount" type="text" placeholder="Enter column count here">
+    <button onclick="generateTable()" >Generate Table</button>
+    
+    <table id="multiplication-table" >
+
+    </table>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
